@@ -24,7 +24,9 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "enzyme": "^3.6.0",
     "jest": "^23.6.0",
-    "jest-cli": "^23.6.0"
+    "jest-cli": "^23.6.0",
+    "react-addons-test-utils": "^15.6.2"
   }
 }
