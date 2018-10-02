@@ -27,6 +27,7 @@
     "enzyme": "^3.6.0",
     "jest": "^23.6.0",
     "jest-cli": "^23.6.0",
-    "react-addons-test-utils": "^15.6.2"
+    "react-addons-test-utils": "^15.6.2",
+    "react-test-renderer": "^16.5.2"
   }
 }
