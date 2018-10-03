@@ -1,6 +1,6 @@
-import React, { Component } from "react";
+import React from "react";
 
-class Main extends Component {
+class NavBar extends React.Component {
   render() {
     return (
         <div>
