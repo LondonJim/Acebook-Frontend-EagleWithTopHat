@@ -1,12 +1,15 @@
 import React, {Component} from "react";
 import ReactDOM from "react-dom";
+import NavBar from './components/navBar'
+import SignUp from './components/signUp'
 // import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div>
-        Hello
+        <NavBar />
+        <SignUp />
       </div>
     );
   }
