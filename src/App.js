@@ -19,7 +19,7 @@ class App extends Component {
         <h3> Sign In </h3>
         <SignIn />
 
-        <h3> All Post </h3>
+        <h3> Add Post </h3>
         <AddPost />
       </div>
     );
