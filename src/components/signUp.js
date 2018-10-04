@@ -12,6 +12,7 @@ class SignUp extends React.Component {
 
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this); // binds 'this.handleSubmit' to this.SignUp
+
     };
 
   handleChange(event) {
@@ -19,21 +20,18 @@ class SignUp extends React.Component {
   };
 
   handleSubmit(event) {
-    const api_url = 'https://acebook-eaglewithtophat.herokuapp.com/users'
-    fetch(api_url, { 
-      method: 'post',
+    event.preventDefault();
+    fetch('https://acebook-eaglewithtophat.herokuapp.com/users', {
+      method: 'POST',
       headers: {
-        Accept: 'application/json',
-        "Content-Type": "application/json"
+        'Accept': 'application/json',
+        'Content-Type': 'application/json',
       },
-      body: JSON.stringify({
-        user : {
-          full_name: this.state.fullName,
-          email: this.state.email,
-          password: this.state.password,
-          password_confirmation: this.state.passwordConfirmation
-        }
-      })
+      body: JSON.stringify({user : {
+        full_name: this.state.fullName,
+        email: this.state.email,
+        password: this.state.password,
+        password_confirmation: this.state.passwordConfirmation}})
     })
   }
 
@@ -57,7 +55,7 @@ class SignUp extends React.Component {
             Password Confirmation:
             <input name="passwordConfirmation" type="password" value={this.state.passwordConfirmation} onChange={this.handleChange} />
           </label><br/>
-          <input name="submit" type="submit" value="Submit" />
+          <input type="submit" value="Submit" />
         </form>
       </div>
     )
