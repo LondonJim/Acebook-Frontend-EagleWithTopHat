@@ -21,12 +21,13 @@ class SignUp extends React.Component {
   handleSubmit(event) {
     const api_url = 'https://acebook-eaglewithtophat.herokuapp.com/users'
     fetch(api_url, { 
-      method: 'POST',
+      method: 'post',
       headers: {
+        Accept: 'application/json',
         "Content-Type": "application/json"
       },
-      body: JSON.stringify ({
-        user: {
+      body: JSON.stringify({
+        user : {
           full_name: this.state.fullName,
           email: this.state.email,
           password: this.state.password,
