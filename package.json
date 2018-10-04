@@ -4,11 +4,14 @@
   "main": "app.js",
   "private": true,
   "dependencies": {
+
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "react-scripts": "2.0.3"
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.0.3",
+    "react-tap-event-plugin": "^3.0.3"
   },
   "scripts": {
     "start": "node app.js",
@@ -27,9 +30,8 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "chai": "^4.2.0",
-    "chai-http": "^4.2.0",
-    "mocha": "^5.2.0",
-    "supertest": "^3.3.0"
+    "enzyme": "^3.6.0",
+    "enzyme-adapter-react-16": "^1.5.0",
+    "jest": "^23.6.0"
   }
 }

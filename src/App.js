@@ -1,16 +1,20 @@
-var express = require('express');
-var app = express();
-var bodyParser = require('body-parser');
+import React, {Component} from "react";
+// import ReactDOM from "react-dom";
+import NavBar from './components/navBar'
+import SignUp from './components/signUp'
+// import SignIn from './components/signIn'
+// import './App.css';
 
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(bodyParser.json());
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <NavBar />
+        <SignUp />
+ 
+      </div>
+    );
+  }
+}
 
-app.get("/", function (req, res) {
-  res.send("hello world");
-});
-
-app.listen(3001, function () {
-  console.log('Server Live')
-})
-
-module.exports = app;
+export default App;
