@@ -1,4 +1,5 @@
 import React from "react";
+import './signUp.css'
 
 class SignUp extends React.Component {
   constructor(props) {
@@ -20,7 +21,7 @@ class SignUp extends React.Component {
 
   handleSubmit(event) {
     const api_url = 'https://acebook-eaglewithtophat.herokuapp.com/users'
-    fetch(api_url, { 
+    fetch(api_url, {
       method: 'post',
       headers: {
         Accept: 'application/json',
@@ -40,23 +41,31 @@ class SignUp extends React.Component {
   render() {
     return (
       <div>
-        <form onSubmit={this.handleSubmit}>
-          <label>
-            Full Name:
-            <input name="fullName" type="text" value={this.state.fullName} onChange={this.handleChange} />
-          </label><br/>
-          <label>
-            Email:
-            <input name="email" type="email" value={this.state.email} onChange={this.handleChange} />
-          </label><br/>
-          <label>
-            Password:
-            <input name="password" type="password" value={this.state.password} onChange={this.handleChange} />
-          </label><br/>
-          <label>
-            Password Confirmation:
-            <input name="passwordConfirmation" type="password" value={this.state.passwordConfirmation} onChange={this.handleChange} />
-          </label><br/>
+        <form className="signUpForm" onSubmit={this.handleSubmit}>
+          <div>
+            <label>
+              Full Name:
+              <input name="fullName" type="text" value={this.state.fullName} onChange={this.handleChange} />
+            </label>
+          </div>
+          <div>
+            <label>
+              Email:
+              <input name="email" type="email" value={this.state.email} onChange={this.handleChange} />
+            </label>
+          </div>
+          <div>
+            <label>
+              Password:
+              <input name="password" type="password" value={this.state.password} onChange={this.handleChange} />
+            </label>
+          </div>
+          <div>
+            <label>
+              Password Confirmation:
+              <input name="passwordConfirmation" type="password" value={this.state.passwordConfirmation} onChange={this.handleChange} />
+            </label>
+          </div>
           <input name="submit" type="submit" value="Submit" />
         </form>
       </div>
