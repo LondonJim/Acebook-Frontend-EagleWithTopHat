@@ -61,6 +61,7 @@ ShallowWrapper {
         </label>
         <br />
         <input
+          name="submit"
           type="submit"
           value="Submit"
         />
@@ -114,6 +115,7 @@ ShallowWrapper {
           </label>,
           <br />,
           <input
+            name="submit"
             type="submit"
             value="Submit"
           />,
@@ -303,6 +305,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
+            "name": "submit",
             "type": "submit",
             "value": "Submit",
           },
@@ -365,6 +368,7 @@ ShallowWrapper {
           </label>
           <br />
           <input
+            name="submit"
             type="submit"
             value="Submit"
           />
@@ -418,6 +422,7 @@ ShallowWrapper {
             </label>,
             <br />,
             <input
+              name="submit"
               type="submit"
               value="Submit"
             />,
@@ -607,6 +612,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
+              "name": "submit",
               "type": "submit",
               "value": "Submit",
             },
@@ -703,6 +709,7 @@ ShallowWrapper {
         </label>
         <br />
         <input
+          name="submit"
           type="submit"
           value="Submit"
         />
@@ -756,6 +763,7 @@ ShallowWrapper {
           </label>,
           <br />,
           <input
+            name="submit"
             type="submit"
             value="Submit"
           />,
@@ -945,6 +953,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
+            "name": "submit",
             "type": "submit",
             "value": "Submit",
           },
@@ -1007,6 +1016,7 @@ ShallowWrapper {
           </label>
           <br />
           <input
+            name="submit"
             type="submit"
             value="Submit"
           />
@@ -1060,6 +1070,7 @@ ShallowWrapper {
             </label>,
             <br />,
             <input
+              name="submit"
               type="submit"
               value="Submit"
             />,
@@ -1249,6 +1260,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
+              "name": "submit",
               "type": "submit",
               "value": "Submit",
             },
@@ -1345,6 +1357,7 @@ ShallowWrapper {
         </label>
         <br />
         <input
+          name="submit"
           type="submit"
           value="Submit"
         />
@@ -1398,6 +1411,7 @@ ShallowWrapper {
           </label>,
           <br />,
           <input
+            name="submit"
             type="submit"
             value="Submit"
           />,
@@ -1587,6 +1601,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
+            "name": "submit",
             "type": "submit",
             "value": "Submit",
           },
@@ -1649,6 +1664,7 @@ ShallowWrapper {
           </label>
           <br />
           <input
+            name="submit"
             type="submit"
             value="Submit"
           />
@@ -1702,6 +1718,7 @@ ShallowWrapper {
             </label>,
             <br />,
             <input
+              name="submit"
               type="submit"
               value="Submit"
             />,
@@ -1891,6 +1908,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
+              "name": "submit",
               "type": "submit",
               "value": "Submit",
             },
@@ -1987,6 +2005,7 @@ ShallowWrapper {
         </label>
         <br />
         <input
+          name="submit"
           type="submit"
           value="Submit"
         />
@@ -2040,6 +2059,7 @@ ShallowWrapper {
           </label>,
           <br />,
           <input
+            name="submit"
             type="submit"
             value="Submit"
           />,
@@ -2229,6 +2249,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
+            "name": "submit",
             "type": "submit",
             "value": "Submit",
           },
@@ -2291,6 +2312,7 @@ ShallowWrapper {
           </label>
           <br />
           <input
+            name="submit"
             type="submit"
             value="Submit"
           />
@@ -2344,6 +2366,7 @@ ShallowWrapper {
             </label>,
             <br />,
             <input
+              name="submit"
               type="submit"
               value="Submit"
             />,
@@ -2533,6 +2556,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
+              "name": "submit",
               "type": "submit",
               "value": "Submit",
             },

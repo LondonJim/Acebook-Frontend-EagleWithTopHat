@@ -19,11 +19,22 @@ class SignUp extends React.Component {
   };
 
   handleSubmit(event) {
-    alert('User details: ' + this.state.fullName
-                           + this.state.email
-                           + this.state.password
-                           + this.state.passwordConfirmation)
-  };
+    const api_url = 'https://acebook-eaglewithtophat.herokuapp.com/users'
+    fetch(api_url, { 
+      method: 'POST',
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify ({
+        user: {
+          full_name: this.state.fullName,
+          email: this.state.email,
+          password: this.state.password,
+          password_confirmation: this.state.passwordConfirmation
+        }
+      })
+    })
+  }
 
   render() {
     return (
@@ -45,7 +56,7 @@ class SignUp extends React.Component {
             Password Confirmation:
             <input name="passwordConfirmation" type="password" value={this.state.passwordConfirmation} onChange={this.handleChange} />
           </label><br/>
-          <input type="submit" value="Submit" />
+          <input name="submit" type="submit" value="Submit" />
         </form>
       </div>
     )

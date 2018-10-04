@@ -83,17 +83,18 @@ describe('signUp', () => {
 
   describe('submit', () => {
 
-    // it('sends form data via fetch request', () => {
-    //   wrapper.find('[name="fullName"]').simulate('change', { target: {name:'fullName', value: 'Fake Name' }})
-    //   wrapper.find('[name="email"]').simulate('change', { target: {name:'email', value: 'fakeemail@fakeemail.com' }})
-    //   wrapper.find('[name="password"]').simulate('change', { target: {name:'password', value: 'fakepassword' }})
-    //   wrapper.find('[name="passwordConfirmation"]').simulate('change', { target: {name:'passwordConfirmation', value: 'fakepasswordConfirmation' }})
-    //
-    //   // wrapper.find('[name="submit"]').simulate('click')
-    //
-    //   // expect(response).toEqual()
-    //   // expect(response).toEqual()
-    // })
+    it('sends form data via fetch request', () => {
+      wrapper.find('[name="fullName"]').simulate('change', { target: {name:'fullName', value: 'Fake Name' }})
+      wrapper.find('[name="email"]').simulate('change', { target: {name:'email', value: 'fakeemail@fakeemail.com' }})
+      wrapper.find('[name="password"]').simulate('change', { target: {name:'password', value: 'fakepassword' }})
+      wrapper.find('[name="passwordConfirmation"]').simulate('change', { target: {name:'passwordConfirmation', value: 'fakepasswordConfirmation' }})
+    
+      wrapper.find('[name="submit"]').simulate('click')
+      
+      // expect(response)
+      // expect(response.content_type).toEqual("application/json")
+      // expect(response).toEqual()
+    })
   })
 
 })
