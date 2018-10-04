@@ -1,13 +1,13 @@
 # Acebook
 
-[![Waffle.io - Columns and their card count](https://badge.waffle.io/LondonJim/acebook-frontend-eaglewithtophat.svg?columns=all)](https://waffle.io/LondonJim/acebook-frontend-eaglewithtophat)
+[![Waffle.io - Columns and their card count](https://badge.waffle.io/LazySamir/Acebook-EagleWithTopHat.svg?columns=all)](https://waffle.io/LazySamir/Acebook-EagleWithTopHat)
 
 Frontend for our Acebook app, written in React using React router.
 
 Backend Rails API found here:
-```
-https://github.com/LazySamir/Acebook-EagleWithTopHat
-```
+
+[https://github.com/LazySamir/Acebook-EagleWithTopHat]()
+
 
 ## The Mission
 Create a clone of a well-known social media platform using Rails.
@@ -20,19 +20,15 @@ Create a clone of a well-known social media platform using Rails.
 
 ## How do I run it?
 
-##### Download the app
 ```
-tbc
+git clone https://github.com/LondonJim/acebook-frontend-eaglewithtophat.git
+cd acebook-frontend-eaglewithtophat
+npm install
 ```
 
 ##### Start the server
 ```
-tbc
-```
-
-### How do I use it?
-```
-tbc
+npm start
 ```
 
 ## User Stories
