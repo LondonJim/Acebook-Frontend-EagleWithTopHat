@@ -2,10 +2,14 @@
   margin: 5% auto;
   width: 25%;
   padding-left: 3%;
-  padding-bottom: 2%;
+  padding-bottom: 1%;
+  padding-right: 2%;
+  padding-top: 1%;
   display: grid;
-  border: 1px solid #aaa9a97c;
-  border-radius: 2px;
+  border-top: 12px solid #272727;
+  border-bottom: 12px solid #272727;
+  /* border: 1px solid #aaa9a97c;
+  border-radius: 2px; */
 }
 
 .signup-container input {
@@ -31,6 +35,7 @@
   font-size: 2em;
   text-align: left;
   text-transform: uppercase;
+  margin-top: 0;
 }
 
 .form-entry {
