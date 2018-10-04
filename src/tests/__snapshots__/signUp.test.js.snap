@@ -61,7 +61,6 @@ ShallowWrapper {
         </label>
         <br />
         <input
-          name="submit"
           type="submit"
           value="Submit"
         />
@@ -115,7 +114,6 @@ ShallowWrapper {
           </label>,
           <br />,
           <input
-            name="submit"
             type="submit"
             value="Submit"
           />,
@@ -305,7 +303,6 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "name": "submit",
             "type": "submit",
             "value": "Submit",
           },
@@ -368,7 +365,6 @@ ShallowWrapper {
           </label>
           <br />
           <input
-            name="submit"
             type="submit"
             value="Submit"
           />
@@ -422,7 +418,6 @@ ShallowWrapper {
             </label>,
             <br />,
             <input
-              name="submit"
               type="submit"
               value="Submit"
             />,
@@ -612,655 +607,6 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "name": "submit",
-              "type": "submit",
-              "value": "Submit",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": "input",
-          },
-        ],
-        "type": "form",
-      },
-      "type": "div",
-    },
-  ],
-  Symbol(enzyme.__options__): Object {
-    "adapter": ReactSixteenAdapter {
-      "options": Object {
-        "enableComponentDidUpdateOnSetState": true,
-        "lifecycles": Object {
-          "componentDidUpdate": Object {
-            "onSetState": true,
-          },
-          "getDerivedStateFromProps": true,
-          "getSnapshotBeforeUpdate": true,
-          "setState": Object {
-            "skipsComponentDidUpdateOnNullish": true,
-          },
-        },
-      },
-    },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
-  },
-}
-`;
-
-exports[`signUp fullName recognises keyboard input 1`] = `
-ShallowWrapper {
-  Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <SignUp />,
-  Symbol(enzyme.__renderer__): Object {
-    "batchedUpdates": [Function],
-    "getNode": [Function],
-    "render": [Function],
-    "simulateError": [Function],
-    "simulateEvent": [Function],
-    "unmount": [Function],
-  },
-  Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "host",
-    "props": Object {
-      "children": <form
-        onSubmit={[Function]}
-      >
-        <label>
-          Full Name:
-          <input
-            name="fullName"
-            onChange={[Function]}
-            type="text"
-            value=""
-          />
-        </label>
-        <br />
-        <label>
-          Email:
-          <input
-            name="email"
-            onChange={[Function]}
-            type="email"
-            value=""
-          />
-        </label>
-        <br />
-        <label>
-          Password:
-          <input
-            name="password"
-            onChange={[Function]}
-            type="password"
-            value=""
-          />
-        </label>
-        <br />
-        <label>
-          Password Confirmation:
-          <input
-            name="passwordConfirmation"
-            onChange={[Function]}
-            type="password"
-            value=""
-          />
-        </label>
-        <br />
-        <input
-          name="submit"
-          type="submit"
-          value="Submit"
-        />
-      </form>,
-    },
-    "ref": null,
-    "rendered": Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": Array [
-          <label>
-            Full Name:
-            <input
-              name="fullName"
-              onChange={[Function]}
-              type="text"
-              value=""
-            />
-          </label>,
-          <br />,
-          <label>
-            Email:
-            <input
-              name="email"
-              onChange={[Function]}
-              type="email"
-              value=""
-            />
-          </label>,
-          <br />,
-          <label>
-            Password:
-            <input
-              name="password"
-              onChange={[Function]}
-              type="password"
-              value=""
-            />
-          </label>,
-          <br />,
-          <label>
-            Password Confirmation:
-            <input
-              name="passwordConfirmation"
-              onChange={[Function]}
-              type="password"
-              value=""
-            />
-          </label>,
-          <br />,
-          <input
-            name="submit"
-            type="submit"
-            value="Submit"
-          />,
-        ],
-        "onSubmit": [Function],
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              "Full Name:",
-              <input
-                name="fullName"
-                onChange={[Function]}
-                type="text"
-                value=""
-              />,
-            ],
-          },
-          "ref": null,
-          "rendered": Array [
-            "Full Name:",
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "name": "fullName",
-                "onChange": [Function],
-                "type": "text",
-                "value": "",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": "input",
-            },
-          ],
-          "type": "label",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {},
-          "ref": null,
-          "rendered": null,
-          "type": "br",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              "Email:",
-              <input
-                name="email"
-                onChange={[Function]}
-                type="email"
-                value=""
-              />,
-            ],
-          },
-          "ref": null,
-          "rendered": Array [
-            "Email:",
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "name": "email",
-                "onChange": [Function],
-                "type": "email",
-                "value": "",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": "input",
-            },
-          ],
-          "type": "label",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {},
-          "ref": null,
-          "rendered": null,
-          "type": "br",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              "Password:",
-              <input
-                name="password"
-                onChange={[Function]}
-                type="password"
-                value=""
-              />,
-            ],
-          },
-          "ref": null,
-          "rendered": Array [
-            "Password:",
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "name": "password",
-                "onChange": [Function],
-                "type": "password",
-                "value": "",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": "input",
-            },
-          ],
-          "type": "label",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {},
-          "ref": null,
-          "rendered": null,
-          "type": "br",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              "Password Confirmation:",
-              <input
-                name="passwordConfirmation"
-                onChange={[Function]}
-                type="password"
-                value=""
-              />,
-            ],
-          },
-          "ref": null,
-          "rendered": Array [
-            "Password Confirmation:",
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "name": "passwordConfirmation",
-                "onChange": [Function],
-                "type": "password",
-                "value": "",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": "input",
-            },
-          ],
-          "type": "label",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {},
-          "ref": null,
-          "rendered": null,
-          "type": "br",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "name": "submit",
-            "type": "submit",
-            "value": "Submit",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": "input",
-        },
-      ],
-      "type": "form",
-    },
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": <form
-          onSubmit={[Function]}
-        >
-          <label>
-            Full Name:
-            <input
-              name="fullName"
-              onChange={[Function]}
-              type="text"
-              value=""
-            />
-          </label>
-          <br />
-          <label>
-            Email:
-            <input
-              name="email"
-              onChange={[Function]}
-              type="email"
-              value=""
-            />
-          </label>
-          <br />
-          <label>
-            Password:
-            <input
-              name="password"
-              onChange={[Function]}
-              type="password"
-              value=""
-            />
-          </label>
-          <br />
-          <label>
-            Password Confirmation:
-            <input
-              name="passwordConfirmation"
-              onChange={[Function]}
-              type="password"
-              value=""
-            />
-          </label>
-          <br />
-          <input
-            name="submit"
-            type="submit"
-            value="Submit"
-          />
-        </form>,
-      },
-      "ref": null,
-      "rendered": Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            <label>
-              Full Name:
-              <input
-                name="fullName"
-                onChange={[Function]}
-                type="text"
-                value=""
-              />
-            </label>,
-            <br />,
-            <label>
-              Email:
-              <input
-                name="email"
-                onChange={[Function]}
-                type="email"
-                value=""
-              />
-            </label>,
-            <br />,
-            <label>
-              Password:
-              <input
-                name="password"
-                onChange={[Function]}
-                type="password"
-                value=""
-              />
-            </label>,
-            <br />,
-            <label>
-              Password Confirmation:
-              <input
-                name="passwordConfirmation"
-                onChange={[Function]}
-                type="password"
-                value=""
-              />
-            </label>,
-            <br />,
-            <input
-              name="submit"
-              type="submit"
-              value="Submit"
-            />,
-          ],
-          "onSubmit": [Function],
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": Array [
-                "Full Name:",
-                <input
-                  name="fullName"
-                  onChange={[Function]}
-                  type="text"
-                  value=""
-                />,
-              ],
-            },
-            "ref": null,
-            "rendered": Array [
-              "Full Name:",
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "name": "fullName",
-                  "onChange": [Function],
-                  "type": "text",
-                  "value": "",
-                },
-                "ref": null,
-                "rendered": null,
-                "type": "input",
-              },
-            ],
-            "type": "label",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {},
-            "ref": null,
-            "rendered": null,
-            "type": "br",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": Array [
-                "Email:",
-                <input
-                  name="email"
-                  onChange={[Function]}
-                  type="email"
-                  value=""
-                />,
-              ],
-            },
-            "ref": null,
-            "rendered": Array [
-              "Email:",
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "name": "email",
-                  "onChange": [Function],
-                  "type": "email",
-                  "value": "",
-                },
-                "ref": null,
-                "rendered": null,
-                "type": "input",
-              },
-            ],
-            "type": "label",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {},
-            "ref": null,
-            "rendered": null,
-            "type": "br",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": Array [
-                "Password:",
-                <input
-                  name="password"
-                  onChange={[Function]}
-                  type="password"
-                  value=""
-                />,
-              ],
-            },
-            "ref": null,
-            "rendered": Array [
-              "Password:",
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "name": "password",
-                  "onChange": [Function],
-                  "type": "password",
-                  "value": "",
-                },
-                "ref": null,
-                "rendered": null,
-                "type": "input",
-              },
-            ],
-            "type": "label",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {},
-            "ref": null,
-            "rendered": null,
-            "type": "br",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": Array [
-                "Password Confirmation:",
-                <input
-                  name="passwordConfirmation"
-                  onChange={[Function]}
-                  type="password"
-                  value=""
-                />,
-              ],
-            },
-            "ref": null,
-            "rendered": Array [
-              "Password Confirmation:",
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "name": "passwordConfirmation",
-                  "onChange": [Function],
-                  "type": "password",
-                  "value": "",
-                },
-                "ref": null,
-                "rendered": null,
-                "type": "input",
-              },
-            ],
-            "type": "label",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {},
-            "ref": null,
-            "rendered": null,
-            "type": "br",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "name": "submit",
               "type": "submit",
               "value": "Submit",
             },
@@ -1357,7 +703,6 @@ ShallowWrapper {
         </label>
         <br />
         <input
-          name="submit"
           type="submit"
           value="Submit"
         />
@@ -1411,7 +756,6 @@ ShallowWrapper {
           </label>,
           <br />,
           <input
-            name="submit"
             type="submit"
             value="Submit"
           />,
@@ -1601,7 +945,6 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "name": "submit",
             "type": "submit",
             "value": "Submit",
           },
@@ -1664,7 +1007,6 @@ ShallowWrapper {
           </label>
           <br />
           <input
-            name="submit"
             type="submit"
             value="Submit"
           />
@@ -1718,7 +1060,6 @@ ShallowWrapper {
             </label>,
             <br />,
             <input
-              name="submit"
               type="submit"
               value="Submit"
             />,
@@ -1908,7 +1249,6 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "name": "submit",
               "type": "submit",
               "value": "Submit",
             },
@@ -2005,7 +1345,6 @@ ShallowWrapper {
         </label>
         <br />
         <input
-          name="submit"
           type="submit"
           value="Submit"
         />
@@ -2059,7 +1398,6 @@ ShallowWrapper {
           </label>,
           <br />,
           <input
-            name="submit"
             type="submit"
             value="Submit"
           />,
@@ -2249,7 +1587,6 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "name": "submit",
             "type": "submit",
             "value": "Submit",
           },
@@ -2312,7 +1649,6 @@ ShallowWrapper {
           </label>
           <br />
           <input
-            name="submit"
             type="submit"
             value="Submit"
           />
@@ -2366,7 +1702,6 @@ ShallowWrapper {
             </label>,
             <br />,
             <input
-              name="submit"
               type="submit"
               value="Submit"
             />,
@@ -2556,7 +1891,6 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "name": "submit",
               "type": "submit",
               "value": "Submit",
             },

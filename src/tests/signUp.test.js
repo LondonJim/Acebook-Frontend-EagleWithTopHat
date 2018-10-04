@@ -5,16 +5,10 @@ import {shallow, mount, render} from 'enzyme'
 describe('signUp', () => {
   const wrapper = shallow(<SignUp />)
 
-  describe('fullName', () => {
-    const fullNameState = wrapper.state().fullName
+  describe('posts', () => {
+    const postsState = wrapper.state().posts
     it('starts empty', () => {
-      expect(fullNameState).toEqual("")
-    })
-
-    it('recognises keyboard input', () => {
-      wrapper.find('[name="fullName"]').simulate('click')
-
-      expect(wrapper).toMatchSnapshot();
+      expect(postsState).toEqual([])
     })
 
     it('changes state on keyboard input', () => {
@@ -88,12 +82,10 @@ describe('signUp', () => {
       wrapper.find('[name="email"]').simulate('change', { target: {name:'email', value: 'fakeemail@fakeemail.com' }})
       wrapper.find('[name="password"]').simulate('change', { target: {name:'password', value: 'fakepassword' }})
       wrapper.find('[name="passwordConfirmation"]').simulate('change', { target: {name:'passwordConfirmation', value: 'fakepasswordConfirmation' }})
-    
+
       wrapper.find('[name="submit"]').simulate('click')
-      
-      // expect(response)
+
       // expect(response.content_type).toEqual("application/json")
-      // expect(response).toEqual()
     })
   })
 
