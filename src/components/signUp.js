@@ -19,10 +19,13 @@ class SignUp extends React.Component {
   };
 
   handleSubmit(event) {
+    alert('A new user was submitted: ' + this.state.fullName)
+    event.preventDefault()
     const api_url = 'https://acebook-eaglewithtophat.herokuapp.com/users'
     fetch(api_url, { 
-      method: 'post',
+      method: 'POST',
       headers: {
+        // Access-Control-Allow-Origin: *
         Accept: 'application/json',
         "Content-Type": "application/json"
       },
