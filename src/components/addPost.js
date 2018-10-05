@@ -32,6 +32,7 @@ class AddPost extends React.Component {
   render() {
     return (
       <div>
+        <h3>Add a Post</h3>
         <form onSubmit={this.handleSubmit}>
           <label>
             Message:

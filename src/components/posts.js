@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import "./show-posts.css";
+
 
 class Posts extends React.Component {
   constructor(props) {
@@ -11,10 +13,10 @@ class Posts extends React.Component {
 
   showPosts() {
     const posts = this.state.posts.map(post => (
-      <div>
-        <p>User id: {post.user_id}</p>
-        <p>Post content: {post.message}</p>
-        <p>Created on: {post.created_at}</p>
+      <div className="a-post">
+        <p className="message">{post.message}</p>
+        <p className="author">Posted by {post.user_id}</p>
+        <p className="date">Created on: {post.created_at}</p>
         <br></br>
       </div>
     ));
@@ -36,8 +38,8 @@ class Posts extends React.Component {
   }
   render() {
     return (
-      <div>
-        <form name ="post_form" onSubmit={this.handleSubmit}>
+      <div className="show-posts">
+        <form id="show-post-form" className="show-posts" name ="post_form" onSubmit={this.handleSubmit}>
           <label>
             <input type="submit" value="Show All Posts" />
           </label>

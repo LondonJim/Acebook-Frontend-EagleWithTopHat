@@ -1,4 +1,5 @@
 import React from "react";
+import './signUp.css';
 
 class SignUp extends React.Component {
   constructor(props) {
@@ -37,24 +38,25 @@ class SignUp extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="signup-container">
+      <h3 className="form-title"> Sign Up</h3>
         <form onSubmit={this.handleSubmit}>
           <label>
             Full Name:
             <input name="fullName" type="text" value={this.state.fullName} onChange={this.handleChange} />
-          </label><br/>
+          </label>
           <label>
             Email:
             <input name="email" type="email" value={this.state.email} onChange={this.handleChange} />
-          </label><br/>
+          </label>
           <label>
             Password:
             <input name="password" type="password" value={this.state.password} onChange={this.handleChange} />
-          </label><br/>
+          </label>
           <label>
             Password Confirmation:
             <input name="passwordConfirmation" type="password" value={this.state.passwordConfirmation} onChange={this.handleChange} />
-          </label><br/>
+          </label>
           <input type="submit" value="Submit" />
         </form>
       </div>
