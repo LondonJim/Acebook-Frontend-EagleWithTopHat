@@ -1,0 +1,39 @@
+.show-posts {
+  margin: 0 auto;
+  width: 50%;
+}
+
+/* #show-post-form {
+  width: 100%;
+} */
+
+#show-post-form input {
+  font-size: 1.3em;
+  font-weight: 500;
+  border-radius: 2px;
+  border: 1px solid #272727;
+  cursor: pointer;
+}
+
+#show-post-form input:hover {
+  background-color: rgba(240, 240, 240, 0.753);
+}
+
+.a-post {
+  margin: 5% auto;
+  width: 50%;
+  border: 1px solid #272727;
+  padding: 2%;
+}
+
+.message {
+  font-weight: bold;
+}
+
+.date {
+  font-size: 0.6em;
+}
+
+.author {
+  font-size: 0.7em;
+}
