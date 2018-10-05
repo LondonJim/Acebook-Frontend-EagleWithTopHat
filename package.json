@@ -4,9 +4,6 @@
   "main": "app.js",
   "private": true,
   "dependencies": {
-
-    "body-parser": "^1.18.3",
-    "express": "^4.16.3",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-router-dom": "^4.3.1",
@@ -14,10 +11,9 @@
     "react-tap-event-plugin": "^3.0.3"
   },
   "scripts": {
-    "start": "node app.js",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "test": "mocha",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
